@@ -3,57 +3,34 @@ body {
   background: #ffffff;
   color: #111;
   margin: 0;
-  line-height: 1.6;
-}
-
-.container {
-  max-width: 700px;
-  margin: 40px auto;
-  padding: 0 20px;
+  line-height: 1.7;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 5px;
+  font-size: 2.8rem;
+  font-weight: 700;
 }
 
-.tagline {
-  color: #666;
-  margin-bottom: 20px;
+h2 {
+  margin-top: 40px;
 }
 
-nav a {
-  margin-right: 15px;
-  text-decoration: none;
-  color: #111;
-  font-weight: 500;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.posts {
-  margin-top: 20px;
+.container {
+  max-width: 720px;
+  margin: 60px auto;
+  padding: 0 20px;
 }
 
 .post-card {
   display: block;
-  padding: 15px;
+  padding: 20px;
   border: 1px solid #eee;
-  border-radius: 10px;
-  margin-bottom: 15px;
-  text-decoration: none;
-  color: inherit;
-  transition: 0.2s;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease;
 }
 
 .post-card:hover {
+  transform: translateY(-3px);
   background: #fafafa;
-}
-
-footer {
-  text-align: center;
-  color: #888;
-  font-size: 0.9rem;
 }
