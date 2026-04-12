@@ -1,3 +1,4 @@
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   background: #ffffff;
@@ -33,4 +34,9 @@ h2 {
 .post-card:hover {
   transform: translateY(-3px);
   background: #fafafa;
+}
+
+.tagline {
+  color: #666;
+  font-size: 1.1rem;
 }
